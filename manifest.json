@@ -1,0 +1,29 @@
+{
+  "name": "Air Traffic Control",
+  "version": "1.0",
+  "description": "Monitor and log website HTTP traffic.",
+  "devtools_page": "devtools.html",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "declarativeContent",
+    "webRequest",
+    "*://*.appspot.com/",
+    "*://oauthintegrations.googleapis.com/v1/*"
+  ],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/signal_tower_16.png",
+      "32": "images/signal_tower_32.png",
+      "48": "images/signal_tower_48.png",
+      "128": "images/signal_tower_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/signal_tower_16.png",
+    "32": "images/signal_tower_32.png",
+    "48": "images/signal_tower_48.png",
+    "128": "images/signal_tower_128.png"
+  },
+  "manifest_version": 2
+}
